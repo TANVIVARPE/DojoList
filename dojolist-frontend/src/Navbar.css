@@ -1,0 +1,52 @@
+.navbar {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  
+  .navbar-left h3 {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .streak {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .logout-btn {
+    background: linear-gradient(135deg, #ff5858, #f09819);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background: linear-gradient(135deg, #f85032, #e73827);
+  }
+  
+  .navbar-progress {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    gap: 2px;
+  }
+  

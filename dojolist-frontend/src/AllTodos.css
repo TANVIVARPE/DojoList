@@ -1,0 +1,84 @@
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .todo-item {
+    background: rgba(255, 255, 255, 0.07);
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  .scheduled-time {
+    font-size: 0.85rem;
+    color: #aaa;
+  }
+  
+  .start-task-btn {
+    padding: 8px 16px;
+    background: #5c67f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .start-task-btn:hover {
+    background: #4b56e2;
+  }
+
+  .task-title-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+  }
+  
+  .priority-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px; /* Adds space between the icon and text */
+  }
+  
+  .priority-badge.high {
+    background-color: #e74c3c !important;
+  }
+  
+  .priority-badge.medium {
+    background-color: #f39c12 !important;
+  }
+  
+  .priority-badge.low {
+    background-color: #2ecc71 !important;
+  }
+  
+  .duration-badge {
+    padding: 3px 8px;
+    background-color: #ddd;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #333;
+  }
+  

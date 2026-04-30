@@ -1,0 +1,39 @@
+.focused-task {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.focused-task h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.focused-task p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.focused-task .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.focused-task button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: #6200ea;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.focused-task button:hover {
+  background: #3700b3;
+}

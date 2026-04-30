@@ -1,0 +1,100 @@
+/* Gradient background */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #6d28d9);
+    color: white;
+    text-align: center;
+  }
+  
+  /* App title */
+  .app-title {
+    font-size: 2.5rem; /* Increased font size */
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Subtitle */
+  .app-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+  }
+  
+  /* Glassmorphism box */
+  .login-box {
+    background: rgba(255, 255, 255, 0.18); /* More white */
+    backdrop-filter: blur(15px); /* More frosted effect */
+    border-radius: 15px;
+    padding: 40px;
+    width: 400px; /* Slightly increased width */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: left; /* Align form fields properly */
+  }
+  
+  /* Form styling */
+  .login-box h2 {
+    font-size: 1.8rem; /* Slightly larger */
+    margin-bottom: 15px;
+    text-align: center; /* Centered text */
+  }
+  
+  .login-box label {
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  /* Input fields */
+  .login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px; /* Increased spacing */
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Login button */
+  .login-box button {
+    width: 100%;
+    padding: 14px;
+    background: #6d28d9;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .login-box button:hover {
+    background: #8b5cf6;
+  }
+  
+  /* Link styling */
+  .login-box p {
+    margin-top: 15px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .login-box a {
+    color: #518ceb;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .login-box a:hover {
+    text-decoration: underline;
+  }
+  

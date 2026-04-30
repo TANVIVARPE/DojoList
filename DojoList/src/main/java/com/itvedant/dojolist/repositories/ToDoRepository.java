@@ -1,0 +1,14 @@
+package com.itvedant.dojolist.repositories;
+
+import com.itvedant.dojolist.entity.ToDo;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+
+import java.util.List;
+
+public interface ToDoRepository extends JpaRepository<ToDo, Long> {
+    
+    @Query("SELECT t FROM ToDo t WHERE t.user.id = :userId")
+    List<ToDo> findByUserId(@Param("userId") Long userId);
+}

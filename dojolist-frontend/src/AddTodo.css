@@ -1,0 +1,69 @@
+.add-todo-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+  }
+  
+  .add-task-btn {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .add-task-btn:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+  }
+  
+  .add-todo-form {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .add-todo-form h3 {
+    color: white;
+    text-align: center;
+  }
+  
+  .add-todo-form input,
+  .add-todo-form select {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .add-todo-form button {
+    width: 100%;
+    padding: 8px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .add-todo-form button:hover {
+    background: #ff4757;
+  }
+  
