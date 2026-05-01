@@ -32,18 +32,29 @@ DojoList is a full-stack productivity application designed to help users manage 
 
 ## 📸 Screenshots
 
-![Dojolist_Break_Timer](Project-screenshots/Dojolist_Break_Timer.png)
-![Dojolist_Empty_Dashboard](Project-screenshots/Dojolist_Empty_Dashboard.png)
-![Dojolist_Login](Project-screenshots/Dojolist_Login.png)
-![Dojolist_Register](Project-screenshots/Dojolist_Register.png)
-![Dojolist_Task_Addes_Successfully](Project-screenshots/Dojolist_Task_Addes_Successfully.png)
-![Dojolist_Task_Adding_Dashboard](Project-screenshots/Dojolist_Task_Adding_Dashboard.png)
-![Dojolist_Task_Deletion_Popup](Project-screenshots/Dojolist_Task_Deletion_Popup.png)
-![Dojolist_Task_Reminder](Project-screenshots/Dojolist_Task_Reminder.png)
-![Dojolist_Task_Start](Project-screenshots/Dojolist_Task_Start.png)
-![Dojolist_Task_Start_Timer](Project-screenshots/Dojolist_Task_Start_Timer.png)
+### 🔐 Login Page
+![Login](Project-screenshots/Dojolist_Login.png)
 
+### 📝 Register Page
+![Register](Project-screenshots/Dojolist_Register.png)
 
+### 🏠 Dashboard (Empty State)
+![Dashboard](Project-screenshots/Dojolist_Empty_Dashboard.png)
+
+### ➕ Adding Task
+![Add Task](Project-screenshots/Dojolist_Task_Adding_Dashboard.png)
+
+### ✅ Task Added Successfully
+![Task Added](Project-screenshots/Dojolist_Task_Addes_Successfully.png)
+
+### ⏱️ Focus Timer
+![Timer](Project-screenshots/Dojolist_Task_Start_Timer.png)
+
+### 🌿 Break Timer (Zen Mode)
+![Break](Project-screenshots/Dojolist_Break_Timer.png)
+
+### 🔔 Task Reminder Notification
+![Reminder](Project-screenshots/Dojolist_Task_Reminder.png)
 
 ---
 
