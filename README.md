@@ -85,4 +85,4 @@ npm start
 
 ## 👩‍💻 Author
 
-Your Name
+Tanvi Varpe
